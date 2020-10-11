@@ -1,0 +1,27 @@
+{
+  "name": "finance-manager-api",
+  "version": "1.0.0",
+  "description": "API RESTFUL para gerenciador de finanças pessoal com MongoDB",
+  "main": "./src/server.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js",
+    "production": "pm2 start ./src/server.js --name backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasLessa14/finance-manager-api.git"
+  },
+  "author": "Lucas Lessa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LucasLessa14/finance-manager-api/issues"
+  },
+  "homepage": "https://github.com/LucasLessa14/finance-manager-api#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "pm2": "^4.5.0"
+  }
+}
