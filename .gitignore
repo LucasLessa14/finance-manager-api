@@ -1,3 +1,5 @@
+mongo-volume/
+
 # Logs
 logs
 *.log
